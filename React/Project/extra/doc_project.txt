@@ -1,0 +1,32 @@
+
+wesite  / user 
+
+view product
+contact us
+
+signup
+login
+add to cart
+manage cart
+order
+payment
+logout
+
+
+
+admin 
+
+login                 page done
+dashborad view	      page done	
+add product 	F	
+manage product   T
+manage Contact T
+manage user T
+view cart   T
+manage order  T
+view payment  T
+LOGOUT
+
+
+
+  

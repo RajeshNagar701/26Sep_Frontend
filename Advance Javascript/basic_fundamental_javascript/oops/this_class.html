@@ -1,0 +1,51 @@
+<script>
+class abc
+{
+	constructor(a,b)
+	{
+		this.a=a;
+		this.b=b;
+	}
+	sum()
+	{
+		document.write(`sum of a & b are ${this.a+this.b} <br>`);
+	}
+	multi()
+	{
+		document.write(`Multi of a & b are ${this.a*this.b} <br>` );
+	}
+}
+class xyz extends abc
+{	
+	constructor(a,b,c)
+	{
+		super(a,b);
+		this.c=c;
+	}	
+	sum1()
+	{
+		document.write(`sum of a & b & c are ${this.a+this.b+this.c}`);
+	}
+}
+
+class pqr extends xyz
+{	
+	constructor(a,b,c)
+	{
+		super(a,b,c);
+	}	
+	div()
+	{
+		document.write(`div of a & b & c are ${this.a/this.b}`);
+	}
+}
+
+
+const obj= new pqr(10,5,10);
+obj.sum();
+obj.multi();
+obj.sum1();
+
+</script>
+
+
